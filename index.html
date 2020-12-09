@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Mozilla is cool</h1>
+    <img src="images/firefox-icon.png" alt="The Firefox logo: a flaming fox surrounding the Earth.">
+
+    <p>At Mozilla, we’re a global community of</p>
+
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+
+    <p>working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
+
+    <p>Read the <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a> to learn even more about the values and principles that guide the pursuit of our mission.</p>
+
+    <!-- 페이지에 자바스크립트 적용 -->
+    <!-- <script> 태그를 HTML 파일 맨 아래쪽에 두는 이유-->
+    <!-- HTML 코드 순서대로 브라우저에 로드됨 -->
+    <!-- 영향 줄 HTML보다 자바스크립트가 먼저 로드되면 작동하지 않음 -->
+    <button>Change user</button>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
